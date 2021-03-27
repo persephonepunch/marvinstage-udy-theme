@@ -1,0 +1,31 @@
+stackbitVersion: "~0.3.0"
+ssgName: "custom"
+buildCommand: "npx @11ty/eleventy"
+publishDir: "public"
+staticDir: "static"
+uploadDir: "images"
+pagesDir: "site"
+metadata:
+  title: "marvinstage "
+  description: "Theme created in Webflow and converted with Udesly"
+models:
+  windows:
+    type: "page"
+    label: "Windows"
+    urlPath: "/windows/{slug}"
+  category:
+    type: "page"
+    label: "Categories"
+    urlPath: "/category/{slug}"
+  product:
+    type: "page"
+    label: "Products"
+    urlPath: "/product/{slug}"
+  sku:
+    type: "page"
+    label: "SKUs"
+    urlPath: "/sku/{slug}"
+  utility:
+    type: "page"
+    label: "Utilities"
+    urlPath: "/utility/{slug}"
