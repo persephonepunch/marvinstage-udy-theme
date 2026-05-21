@@ -1,5 +1,8 @@
 {
   "name": "marvinstage-udy-theme",
+  "engines": {
+    "node": "^22.0.0"
+  },
   "dependencies": {
     "@11ty/eleventy": "^0.11.0",
     "glob": "^7.1.6",
